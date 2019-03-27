@@ -1,0 +1,39 @@
+# 291 - Åland
+
+# County Title
+title = c_aland
+
+# Settlements
+max_settlements = 7
+
+b_kastelholm = tribal
+
+#b_sund = city
+#b_geta = temple
+#b_saltvik
+#b_godby
+#b_finstrom
+#b_eckero
+#b_kumlinge
+
+# Misc
+culture = norse
+religion = norse_pagan
+
+# History
+769.1.1 = {
+	b_kastelholm = tb_hillfort_1
+	b_kastelholm = tb_market_town_1
+	b_kastelholm = tb_shipyard_1
+    b_kastelholm = tb_training_grounds_1
+    b_kastelholm = tb_war_camp_1
+    b_kastelholm = tb_practice_range_1
+    b_kastelholm = tb_arsenal_1
+}
+1000.1.1 = {
+	b_kastelholm = castle
+	b_kastelholm = ca_shipyard_1
+}
+1066.1.1 = { culture = swedish }
+1085.1.1 = {religion = catholic }
+1254.1.1= { trade_post = b_wittenborg }

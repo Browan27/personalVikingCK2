@@ -1,0 +1,92 @@
+600000 = {
+	name="Raxus"  	# The one and only
+	dynasty=10000001
+	dna = aacbaocaacc
+	properties = gj0rha00000
+	martial=18
+	diplomacy=11
+	intrigue=9
+	stewardship=15
+	religion="norse_pagan"
+	culture="norse"
+	trait = diligent
+	trait = brilliant_strategist
+	trait = zealous
+    trait = immortal
+    trait = lustful
+    trait = wroth
+    trait = proud
+    trait = strategist
+    trait = duelist
+    trait = ambitious
+    trait = robust
+    trait = brave
+    trait = just
+    trait = stubborn
+    trait = honest
+    trait = heavy_infantry_leader
+    trait = winter_soldier
+    trait = organizer
+    trait = experimenter
+    trait = inspiring_leader
+    trait = berserker
+	disallow_random_traits = yes
+	742.1.1={
+		birth="742.1.1"
+	}
+    768.1.1={
+        add_spouse = 600001
+        effect = {
+			add_lover = 600001
+		}
+        add_claim = k_sweden
+        give_nickname=nick_the_undying
+    }
+	1066.1.1 = { culture = swedish }
+	1085.1.1 = { religion = catholic }
+    1344.1.1={
+		death="1344.1.1"
+	}
+}
+
+600001 = {
+	name = "Gyda"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+    dna = ahjhbxdfeax
+	properties = ci0dhk000000000000
+	martial=11
+	diplomacy=15
+	intrigue=18
+	stewardship=9
+	trait = diligent
+	trait = elusive_shadow
+	trait = zealous
+    trait = immortal
+    trait = lustful
+    trait = kind
+    trait = humble
+    trait = schemer
+    trait = seductress
+    trait = ambitious
+    trait = shrewd
+    trait = deceitful
+    trait = gregarious
+    trait = paranoid
+    trait = berserker
+	trait = shieldmaiden
+    trait = flanker
+    trait = heavy_infantry_leader
+    trait = siege_leader
+	disallow_random_traits = yes
+	745.1.1={
+		birth="745.1.1"
+        give_nickname=nick_the_fair
+	}
+	1066.1.1 = { culture = swedish }
+	1085.1.1 = { religion = catholic }
+	1344.1.1={
+		death="1344.1.1"
+	}
+}

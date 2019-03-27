@@ -1,0 +1,12 @@
+10000001 =
+{
+	name="Rognik"
+    culture="norse"
+	coat_of_arms=
+	{
+		data=
+		{ 0 0 0 2 1 3 4 }
+		religion="norse_pagan"
+	}
+	used_for_random=no
+}
